@@ -117,7 +117,7 @@
                 // 微信
                 $('.share-code').mouseover(function () {
                     $('#layerWxcode').addClass('js-show-up');
-                    $('#xtag').attr('src','"http://www.lofter.com/genBitmaxImage?url=' + share_url);
+                    $('#xtag').attr('src','http://www.lofter.com/genBitmaxImage?url=' + share_url);
                 }).mouseout(function () {
                     $('#layerWxcode').toggleClass('js-show-up');
                 });
