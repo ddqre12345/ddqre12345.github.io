@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>飘窗</title>
+    <!-- 引入jquery脚本库，必须 -->
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="../plug/jquery.bay-window.js"></script>
+    <style type="text/css">
+        /* 给飘窗添加一些基础样式，如宽度，高度和背景颜色等等 */
+        #bay{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<!-- 飘窗元素 -->
+<img id="bay" src="../static/bayWindow.jpg" />
+<script type="text/javascript">
+  //测试插件
+  $('#bay').autoMove({angle:-Math.PI/4, speed:300});
+</script>
+</body>
+</html>
